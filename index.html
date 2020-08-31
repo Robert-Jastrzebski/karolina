@@ -16,33 +16,34 @@
 
     <!-- <header id="home"> -->
     <!-- <div class="container"> -->
-    <nav class="navbar navbar-white navbar-expand-md">
+    <nav class="navbar navbar-light bg-white navbar-expand-md">
 
         <h8 id="haosiem">"Osobista Stylistka z Klasą"<a class="navbar-brand" href="#">KAROLINA CHUDZICKA</a>
         </h8>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
             aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
-            <span class="navbar-toggler-icon"></span></button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="mainmenu">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">HOME</a>
+                    <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#info">O MNIE</a>
+                    <a class="nav-link" href="">KAROLINA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#classic">OFERTA</a>
+                    <a class="nav-link" href="">OFERTA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#original">VOUCHER</a>
+                    <a class="nav-link" href="">VOUCHER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#original">FACEBOOK</a>
+                    <a class="nav-link" href="https://www.facebook.com/kchudzicka.stylist/">FACEBOOK</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">KONTAKT</a>
+                    <a class="nav-link" href="">KONTAKT</a>
                 </li>
 
             </ul>
@@ -56,11 +57,21 @@
         <!-- <div class="container"> -->
         <div class="row">
             <div class="col-md-12">
-                <img src="img/Karolina.jpg" class="img-fluid" alt="Karolina Chudzicka Osobista Stylistka">
+                <img src="img/Karolina.jpg" class="img-fluid karo" alt="Karolina Chudzicka Osobista Stylistka">
             </div>
         </div>
         <!-- </div> -->
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(".nav-item").click(function () {
+            $("#mainmenu").removeClass('show');
+        });
+    </script>
 
 
     <script src="main.js"></script>

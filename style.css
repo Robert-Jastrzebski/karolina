@@ -12,25 +12,31 @@ body {
     margin: 0 auto;
     height: 200vh;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: none;
+    overflow-x: hidden;
 
 }
 
 #haosiem {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     text-align: center;
-    /* margin-left: 40px; */
+    margin-left: 50px;
+    margin-top: 10px;
+
 
 }
 
 
 .navbar {
-    margin-top: 10px;
+    position: fixed;
+    z-index: 1;
+    /* margin-top: 10px; */
 
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    /* background-color: white; */
+    width: 100vw;
 
 
 }
@@ -43,7 +49,9 @@ body {
 .navbar-brand {
 
     color: rgb(96, 94, 94);
-    /* margin-left: 130px; */
+    margin-top: -4px;
+    font-style: normal;
+    /* width: 100%; */
 }
 
 .navbar-brand:hover {
@@ -53,27 +61,38 @@ body {
 
 
 .navbar ul {
-    display: flex;
-    /* position: fixed; */
-    /* margin: 0 auto; */
-    margin-top: 20px;
+    /* display: flex; */
 
-    margin-left: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
 
 }
 
 .navbar li {
     margin-left: 20px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .navbar li a {
-    font-size: 11px;
-    color: rgb(96, 94, 94);
+    font-size: 13px;
+    color: rgb(43, 41, 41);
 
 }
 
 .navbar li a:hover {
     text-decoration: none;
     color: black
+}
+
+/* .container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+
+.karo {
+    margin-top: 90px;
 }
