@@ -4,69 +4,67 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 200vh;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
-#haosiem {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  font-style: italic;
-  text-align: center;
-  margin-left: 50px;
-  margin-top: 30px;
-}
-
 .navbar {
-  /* margin-top: 20px; */
   position: fixed;
   z-index: 1;
-  width: 100vw;
+  background: white;
+  /* padding: 10px; */
+  width: 100%;
 }
 
-.navbar-brand {
-  margin-top: -4px;
-  font-style: normal;
-  margin-left: 20px;
+.brandlogo {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  /* text-decoration: underline; */
+  /* margin-left: 90px; */
 }
 
-.navbar-brand:hover {
+.brandlogo:hover {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .navbar ul {
   margin: 0 auto;
-  margin-top: 40px;
 }
 
 .navbar li {
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  /* padding: 10px; */
   /* margin-bottom: 10px; */
 }
 
 .navbar li a {
-  font-size: 13px;
+  font-size: 16px;
   color: rgb(43, 41, 41);
 }
 
-.navbar li a:hover {
-  text-decoration: none;
-  color: black;
+.card-text {
+  padding: 20px;
 }
 
 .karo {
-  margin-top: 120px;
+  margin-top: 72px;
 }
 
-footer {
-  font-size: 40px;
-  text-align: center;
+#voucher {
+  margin-bottom: 10px;
+}
+#about {
+  /* margin: 0 auto; */
   height: 50vh;
-  background-color: rgb(255, 255, 255);
+}
+
+.footer {
 }
