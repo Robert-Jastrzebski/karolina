@@ -21,6 +21,10 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/7a52a05074.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="style.css" />
     <title>Karolina Chudzicka - Osobista Stylistka</title>
@@ -31,11 +35,11 @@
       <nav class="navbar navbar-light bg-light navbar-expand-md">
         <a class="navbar-brand" href="#"></a>
 
-        <div class="col-sm-6 col-md-6 col-lg-4 mt-4">
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
           <a href="#" class="brandlogo">
             <h3
               class="text-secondary mt-2"
-              style="font-style: italic; font-size: 19px; margin-bottom: 2px"
+              style="font-style: italic; font-size: 21px; margin-bottom: 1px"
             >
               "Osobista Stylistka"
             </h3>
@@ -58,26 +62,34 @@
         <div class="collapse navbar-collapse" id="mainmenu">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">HOME</a>
+              <a class="nav-link text-secondary text-dark" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#info">OFERTA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#voucher">VOUCHER</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#about">KAROLINA</a>
+              <a class="nav-link text-secondary text-dark" href="#info"
+                >OFERTA</a
+              >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link text-secondary"
+                class="nav-link text-secondary text-dark"
+                href="#choose-voucher"
+                >VOUCHER</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-dark" href="#about"
+                >KAROLINA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-secondary text-dark"
                 href="https://www.facebook.com/kchudzicka.stylist/"
                 target="blank"
                 >FACEBOOK</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-dark">
               <a class="nav-link text-secondary" href="#contact">KONTAKT</a>
             </li>
           </ul>
@@ -86,12 +98,12 @@
     </section>
 
     <section id="first">
-      <div class="container" style="max-width: 1660px">
+      <div class="container" style="max-width: 1460px">
         <div class="row">
           <div class="col-lg-12 col-sm-12">
             <img
               src="img/Karolina.jpg"
-              class="card-img-top karo"
+              class="card-img-top karo shadow"
               alt="Karolina Chudzicka Osobista Stylistka"
             />
           </div>
@@ -103,19 +115,27 @@
       <!-- Header Oferta-->
       <header class="bg-primary bg-light text-center py-5 mt-1">
         <div class="container">
-          <h3 class="font-weight-light text-dark">OFERTA PERSONAL SHOPPER</h3>
+          <h3
+            class="font-weight-bold text-dark shadow p-4 bg-light personalshoper-text"
+          >
+            OFERTA PERSONAL SHOPPER
+          </h3>
         </div>
       </header>
 
       <!-- Page Oferta -->
-      <div class="container" style="max-width: 1200px">
+      <div class="container mb-3" style="max-width: 1280px">
         <div class="row">
           <!-- OFERTA 1 -->
-          <div class="col-xl-6 col-md-6 mb-4">
+          <div class="col-xl-6 col-md-6 mb-4 shadow">
             <div class="card border-0 bg-light">
               <div class="text-center">
-                <img src="img/Konsultacja.jpg" class="card-img-top" alt="..." />
-                <h4 class="card-title mt-4">KONSULTACJA</h4>
+                <img
+                  src="img/Konsultacja.jpg"
+                  class="card-img-top shadow"
+                  alt="..."
+                />
+                <h4 class="card-title mt-5 font-weight-bold">KONSULTACJA</h4>
 
                 <div
                   class="text-justify card-text text-black-60 mt-2 offer-text"
@@ -131,15 +151,17 @@
           </div>
 
           <!-- OFERTA 2 -->
-          <div class="col-xl-6 col-md-6 mb-4">
+          <div class="col-xl-6 col-md-6 mb-4 shadow">
             <div class="card border-0 bg-light">
               <div class="text-center">
                 <img
                   src="img/przegladszafy.jpg"
-                  class="card-img-top"
+                  class="card-img-top shadow"
                   alt="..."
                 />
-                <h4 class="card-title mt-4">PRZEGLĄD SZAFY</h4>
+                <h4 class="card-title mt-4 font-weight-bold mt-5">
+                  PRZEGLĄD SZAFY
+                </h4>
                 <div
                   class="text-justify card-text text-black-60 mt-2 offer-text"
                 >
@@ -156,11 +178,17 @@
             </div>
           </div>
           <!-- OFERTA 3 -->
-          <div class="col-xl-6 col-md-6 mb-4">
+          <div class="col-xl-6 col-md-6 mb-4 shadow">
             <div class="card border-0 bg-light">
               <div class="text-center">
-                <img src="img/zakupy.jpg" class="card-img-top" alt="..." />
-                <h4 class="card-title mt-3">ZAKUPY ZE STYLISTKĄ</h4>
+                <img
+                  src="img/zakupy.jpg"
+                  class="card-img-top shadow"
+                  alt="..."
+                />
+                <h4 class="card-title mt-3 font-weight-bold mt-5">
+                  ZAKUPY ZE STYLISTKĄ
+                </h4>
                 <div
                   class="text-justify card-text text-black-60 mt-1 offer-text"
                 >
@@ -179,15 +207,17 @@
             </div>
           </div>
           <!-- OFERTA 4 -->
-          <div class="col-xl-6 col-md-6 mb-4">
+          <div class="col-xl-6 col-md-6 mb-4 shadow">
             <div class="card border-0 bg-light">
               <div class="text-center">
                 <img
                   src="img/pexels-anna-shvets-4557798.jpg"
-                  class="card-img-top"
+                  class="card-img-top shadow"
                   alt="..."
                 />
-                <h4 class="card-title mt-3">METAMORFOZA</h4>
+                <h4 class="card-title mt-3 font-weight-bold mt-5">
+                  METAMORFOZA
+                </h4>
                 <div
                   class="text-justify card-text text-black-60 mt-2 offer-text"
                 >
@@ -208,15 +238,159 @@
         </div>
       </div>
     </section>
+
+    <!-- PRICING -->
+
+    <section style="max-width: 1460px; margin: 0 auto" class="bg-warning">
+      <div class="container py-5">
+        <h1 class="text-center pricing font-weight-bold">
+          Cennik Personal Shopper
+        </h1>
+        <br />
+        <br />
+        <div class="row text-center align-items-end">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">
+                Przegląd Szafy
+              </h1>
+              <h2 class="h1 font-weight-bold">
+                400zł<span class="text-small font-weight-normal ml-2"
+                  >/ 6 h</span
+                >
+              </h2>
+              <div class="custom-separator my-4 mx-auto bg-warning"></div>
+              <ul class="list-unstyled my-5 text-small text-left">
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 5GB Disk Space
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 10 Email
+                  Accounts
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 5 GB Monthly
+                  Bandwidth
+                </li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Unlimited Subdomain</del>
+                </li>
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Automatic Cloud Backup</del>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="btn btn-warning btn-block p-2 shadow rounded-pill"
+                >Zamawiam</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h2 class="h6 text-uppercase font-weight-bold mb-4">
+                ZAKUPY ZE STYLISTKĄ
+              </h2>
+              <h2 class="h1 font-weight-bold">
+                500zł<span class="text-small font-weight-normal ml-2"
+                  >/ 6 h</span
+                >
+              </h2>
+              <div class="custom-separator my-4 mx-auto bg-warning"></div>
+              <ul
+                class="list-unstyled my-5 text-small text-left font-weight-normal"
+              >
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 10GB Disk Space
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 15 Email
+                  Accounts
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 10GB Monthly
+                  Bandwidth
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Unlimited
+                  Subdomain
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Automatic Cloud Backup</del>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="btn btn-warning btn-block p-2 shadow rounded-pill"
+                >Zamawiam</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">
+                METAMORFOZA
+              </h1>
+              <h2 class="h1 font-weight-bold">
+                od 1800 zł<span class="text-small font-weight-normal ml-2"
+                  >/ do ustalenia</span
+                >
+              </h2>
+              <div class="custom-separator my-4 mx-auto bg-warning"></div>
+              <ul
+                class="list-unstyled my-5 text-small text-left font-weight-normal"
+              >
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 15GB Disk Space
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 15 Email
+                  Accounts
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> 15GB Monthly
+                  Bandwidth
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Unlimited
+                  Subdomains
+                </li>
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Automatic Cloud
+                  Backup
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="btn btn-warning btn-block p-2 shadow rounded-pill"
+                >Zamawiam</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <br />
-    <section id="voucher">
+    <br />
+
+    <section id="choose-voucher">
       <div class="container">
-        <h3 class="font-weight-light text-dark text-center mb-4">
-          WYBIERZ VOUCHER
+        <h3
+          class="font-weight-bold text-dark text-center mb-5 mt-4 shadow p-5 bg-light"
+        >
+          WYBIERZ VOUCHER NA PREZENT
+          <p class="mt-2 font-weight-light" style="font-size: 25px">
+            Chcesz sprawić bliskiej osobie wyjątkowy prezent? Możesz podarować
+            jej voucher na zakupy ze mną, a ja postaram się umilić dzień nowymi
+            zestawami do garderoby!
+          </p>
         </h3>
       </div>
 
-      <div style="max-width: 1280px; margin: 0 auto" class="card-group">
+      <div style="max-width: 1280px; margin: 0 auto" class="card-group shadow">
         <div style="border: none" class="card bg-light">
           <img
             style="padding: 10px"
@@ -225,7 +399,12 @@
             alt="..."
           />
           <div class="card-body bg-light">
-            <h5 style="text-align: center" class="card-title">Voucher 1</h5>
+            <h5
+              style="text-align: center; font-size: 30px"
+              class="card-title font-weight-bold"
+            >
+              Voucher 1
+            </h5>
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content.
@@ -243,7 +422,12 @@
             alt="..."
           />
           <div class="card-body bg-light">
-            <h5 style="text-align: center" class="card-title">Voucher 2</h5>
+            <h5
+              style="text-align: center; font-size: 30px"
+              class="card-title font-weight-bold"
+            >
+              Voucher 2
+            </h5>
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content.
@@ -261,7 +445,12 @@
             alt="..."
           />
           <div class="card-body bg-light">
-            <h5 style="text-align: center" class="card-title">Voucher 3</h5>
+            <h5
+              style="text-align: center; font-size: 30px"
+              class="card-title font-weight-bold"
+            >
+              Voucher 3
+            </h5>
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content.
@@ -272,13 +461,23 @@
           </div>
         </div>
       </div>
+    </section>
 
-      <header class="bg-primary bg-light text-center py-5 mt-1 mb-5">
+    <!-- ZAMÓW VOUCHER -->
+    <section
+      id="order-voucher"
+      class="bg-warning shadow"
+      style="max-width: 1460px; margin: 0 auto"
+    >
+      <header class="text-center py-5 mt-1">
         <div class="container">
-          <h3 style="margin-bottom: 20px" class="font-weight-light text-dark">
+          <h3
+            style="margin-bottom: 20px"
+            class="font-weight-bold text-light shadow p-4"
+          >
             ZAMÓW VOUCHER
           </h3>
-          <h5 style="font-size: 17px">
+          <h5 class="text-light" style="font-size: 22px">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nihil
             odio cupiditate veritatis sequi reiciendis, saepe praesentium
             dolores impedit quo? Adipisci nobis vero accusantium accusamus illo?
@@ -288,12 +487,7 @@
       </header>
 
       <form
-        style="
-          background-color: #f8f9fa;
-          padding: 20px;
-          max-width: 1080px;
-          margin: 0 auto;
-        "
+        style="padding: 10px; max-width: 1080px; margin: 0 auto"
         id="contact-form"
         method="post"
         action="contact.php"
@@ -304,7 +498,7 @@
         <div style="max-width: 1200px; margin: 0 auto" class="controls">
           <div class="row">
             <div class="col-md-6">
-              <div style="text-align: center" class="form-group">
+              <div style="text-align: center" class="form-group text-light">
                 <label for="form_name">Firstname *</label>
                 <input
                   id="form_name"
@@ -319,7 +513,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div style="text-align: center" class="form-group">
+              <div style="text-align: center" class="form-group text-light">
                 <label for="form_lastname">Lastname *</label>
                 <input
                   id="form_lastname"
@@ -337,7 +531,7 @@
 
           <div class="row">
             <div class="col-md-6">
-              <div style="text-align: center" class="form-group">
+              <div style="text-align: center" class="form-group text-light">
                 <label for="form_email">Email *</label>
                 <input
                   id="form_email"
@@ -352,7 +546,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div style="text-align: center" class="form-group">
+              <div style="text-align: center" class="form-group text-light">
                 <label for="form_need">Please specify your need *</label>
                 <select
                   id="form_need"
@@ -377,7 +571,7 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <div style="text-align: center" class="form-group">
+              <div style="text-align: center" class="form-group text-light">
                 <label for="form_message">Message *</label>
                 <textarea
                   id="form_message"
@@ -404,14 +598,6 @@
                 value="Send message"
               />
             </div>
-            <!-- </div> -->
-            <!-- <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-muted">
-                            <strong>*</strong> These fields are required. Contact form template by
-                            <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form"
-                                target="_blank">Bootstrapious</a>.</p>
-                    </div> -->
           </div>
         </div>
       </form>
@@ -430,34 +616,7 @@
     <br />
 
     <!-- Contact-->
-    <section class="page-section" id="contact">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="mt-0">KONTAKT DO MNIE!</h2>
-            <hr class="divider my-3" />
-            <p class="text-muted mb-5">
-              Ready to start your next project with us? Give us a call or send
-              us an email and we will get back to you as soon as possible!
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-            <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-            <div>+48 500 225 059</div>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-            <a class="d-block" href="mailto:kchudzicka.stylist@gmail.com"
-              >kchudzicka.stylist@gmail.com</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <br />
     <footer class="bg-light py-3">
       <div class="container">
         <div class="small text-center text-muted">

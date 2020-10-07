@@ -7,15 +7,19 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+
 }
 
 body {
   /* font-family: "Cinzel", serif; */
   font-family: "Cormorant", serif;
-  /* font-family: Arial, Helvetica, sans-serif; */
+
   /* overflow-x: hidden; */
   background-color: #f8f9fa;
 }
+
+
+
 
 .navbar {
   position: fixed;
@@ -23,13 +27,14 @@ body {
   background: white;
   /* padding: 10px; */
   width: 100%;
+
 }
 
 .brandlogo {
   text-align: center;
   color: rgb(0, 0, 0);
-  /* text-decoration: underline; */
-  /* margin-left: 90px; */
+
+  margin-left: 90px;
 }
 
 .brandlogo:hover {
@@ -43,7 +48,7 @@ body {
 
 .navbar li {
   margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .navbar li a {
@@ -57,6 +62,27 @@ body {
     margin-top: 4px;
   }
 }
+
+.personalshoper-text {
+  position: relative;
+}
+
+.personalshoper-text::before {
+  content: url(https://www.flaticon.com/svg/static/icons/svg/590/590507.svg);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 250px;
+}
+
+.personalshoper-text::after {
+  content: url(https://www.flaticon.com/svg/static/icons/svg/590/590507.svg);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 250px;
+}
+
 
 .card-text {
   padding: 10px;
@@ -82,3 +108,61 @@ body {
   /* margin: 0 auto; */
   height: 50vh;
 }
+
+
+
+/* PRICING */
+
+.rounded-lg {
+  border-radius: 1rem !important
+}
+
+.text-small {
+  font-size: 0.9rem !important
+}
+
+.pricing {
+  color: #fff
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #a59c59;
+  border: none;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #b5411e;
+}
+
+.bg-warning {
+  background-color: #a59c59 !important;
+}
+
+
+
+/* body {
+  background: #f8c246;
+  background: -webkit-linear-gradient(to right, #f8c246, #f8c246);
+  background: linear-gradient(to right, #f8c246, #f8c246);
+  color: #514B64;
+  min-height: 150vh
+}
+ */
+
+
+
+
+
+/* Footer CONTACT */
