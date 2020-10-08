@@ -14,8 +14,9 @@ body {
   /* font-family: "Cinzel", serif; */
   font-family: "Cormorant", serif;
 
-  /* overflow-x: hidden; */
-  background-color: #f8f9fa;
+  overflow-x: hidden;
+  /* background-color: #f8f9fa; */
+  background-color: #fff;
 }
 
 
@@ -25,8 +26,9 @@ body {
   position: fixed;
   z-index: 1;
   background: white;
-  /* padding: 10px; */
+  padding: 15px;
   width: 100%;
+  background: #F5F5F5;
 
 }
 
@@ -68,19 +70,12 @@ body {
 }
 
 .personalshoper-text::before {
-  content: url(https://www.flaticon.com/svg/static/icons/svg/590/590507.svg);
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  left: 250px;
+  content: "*";
+
 }
 
 .personalshoper-text::after {
-  content: url(https://www.flaticon.com/svg/static/icons/svg/590/590507.svg);
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 250px;
+  content: "*";
 }
 
 
@@ -106,7 +101,7 @@ body {
 
 #about {
   /* margin: 0 auto; */
-  height: 50vh;
+
 }
 
 
@@ -152,17 +147,52 @@ body {
 
 
 
-/* body {
-  background: #f8c246;
-  background: -webkit-linear-gradient(to right, #f8c246, #f8c246);
-  background: linear-gradient(to right, #f8c246, #f8c246);
-  color: #514B64;
-  min-height: 150vh
-}
- */
-
-
 
 
 
 /* Footer CONTACT */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+#contact {
+  /* background: linear-gradient(0deg, #fff, 50%, #DEEEFE); */
+  font-family: 'Cormorant', serif;
+
+  /* height: 100 !important */
+}
+
+.container-fluid {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #F5F5F5;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+
+small {
+  font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+  color: #989c9e !important
+}
+
+.mt-55 {
+  margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.text-contact {
+  font-family: "Cormorant",
+    serif;
+  ;
+  font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+  font-size: 21px !important
+}
+
+.rights {
+  font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
