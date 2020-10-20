@@ -200,48 +200,46 @@ body {
 }
 
 .about .about-content {
-  padding: 40px;
+
+  padding-left: 38px;
 }
 
-.about .icon-box+.icon-box {
-  margin-top: 40px;
+.about .photo-box+.photo-box {
+  margin-top: 10px;
 }
 
-.about .icon-box .icon {
+.about .photo-box .photo {
   float: left;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 72px;
-  height: 42px;
+  width: 91px;
+  height: 110px;
+
 }
 
 
-.about .icon-box .title {
-  margin-left: 95px;
+.about .photo-box .title {
+  margin-left: 110px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
   text-transform: uppercase;
+
 }
 
-.about .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
 
-.about .icon-box .title a:hover {
-  color: #428bca;
-}
 
-.about .icon-box .description {
-  margin-left: 95px;
+
+.about .photo-box .description {
+  margin-left: 110px;
   line-height: 24px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .about .photo-box {
   position: relative;
+  margin-bottom: 10px;
 }
 
 
