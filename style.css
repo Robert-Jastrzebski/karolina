@@ -55,7 +55,7 @@ body {
   position: fixed;
   z-index: 1;
   background: white;
-  padding: 15px;
+  padding: 10px;
   width: 100%;
   background: #F5F5F5;
 
@@ -94,18 +94,7 @@ body {
   }
 }
 
-.personalshoper-text {
-  position: relative;
-}
 
-.personalshoper-text::before {
-  content: "*";
-
-}
-
-.personalshoper-text::after {
-  content: "*";
-}
 
 
 .card-text {
@@ -120,18 +109,23 @@ body {
     serif;
 }
 
+
+/* Photo Header */
 .karo {
-  margin-top: 72px;
+  margin-top: 120px;
+}
+
+@media(max-width: 700px) {
+  .karo {
+    margin-top: 180px;
+  }
+
 }
 
 #voucher {
   margin-bottom: 10px;
 }
 
-#about {
-  /* margin: 0 auto; */
-
-}
 
 
 
@@ -174,7 +168,12 @@ body {
   background-color: #d5ae4c;
 }
 
-
+/* przycisk pod voucherem */
+.btn-order-voucher {
+  display: block;
+  width: 31%;
+  margin: 0 auto;
+}
 
 
 
@@ -193,54 +192,18 @@ body {
   padding: 15px 0;
 }
 
-.about .section-title p {
-  text-align: left;
-  font-style: italic;
-  color: #666;
-}
 
 .about .about-content {
 
   padding-left: 38px;
+  font-size: 19px;
 }
 
 .about .photo-box+.photo-box {
   margin-top: 10px;
 }
 
-.about .photo-box .photo {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 91px;
-  height: 110px;
 
-}
-
-
-.about .photo-box .title {
-  margin-left: 110px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
-  text-transform: uppercase;
-
-}
-
-
-
-
-.about .photo-box .description {
-  margin-left: 110px;
-  line-height: 24px;
-  /* font-size: 14px; */
-}
-
-.about .photo-box {
-  position: relative;
-  margin-bottom: 10px;
-}
 
 
 
