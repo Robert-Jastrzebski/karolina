@@ -31,7 +31,7 @@ body {
   right: 15px;
   bottom: 15px;
   /* background: #acab99; */
-  color: rgb(138, 137, 137);
+  color: #CBA381;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -44,8 +44,8 @@ body {
 }
 
 .back-to-top:hover {
-  color: rgb(2, 2, 2);
-  /* background: #575739; */
+  color: #91745a;
+
   transition: background 0.2s ease-in-out;
 }
 
@@ -155,7 +155,7 @@ body {
 
 .btn-warning {
   color: #fff;
-  background-color: #d5ae4c;
+  background-color: #CBA381;
   border: none;
 }
 
@@ -164,8 +164,15 @@ body {
   background-color: #b5411e;
 }
 
+/* ptaszek przy tekście Pricing */
+.bird-price {
+  /* color: #91745a; */
+  color: #CBA381;
+}
+
+/* Kreska pod cenami Pricing */
 .bg-warning {
-  background-color: #d5ae4c;
+  background-color: #CBA381 !important
 }
 
 /* przycisk pod voucherem */
@@ -173,6 +180,7 @@ body {
   display: block;
   width: 31%;
   margin: 0 auto;
+  background-color: #CBA381;
 }
 
 
@@ -221,7 +229,7 @@ body {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #d5ae4c;
+  color: #CBA381;
   border-radius: 50%;
   padding: 8px;
   /* border: 2px dotted #9eccf4; */
@@ -317,7 +325,7 @@ body {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #d5ae4c;
+  background: #CBA381;
   border: 0;
   padding: 10px 24px;
   color: #fff;
